@@ -1,5 +1,5 @@
 
-This is the project page code repository for the WACV 2025 paper [Towards Zero-shot 3D Anomaly Localization](https://arxiv.org/pdf/2412.04304). Since this paper is initiated when [Yizhou Wang](https://wyzjack.github.io/) was a research intern at Mitsubishi Electric Research Laboratories, the source code can not be released publicly. If you are interested in the code or have any questions on the reproducibility of the results, please contact Yizhou Wang (wyzjack990122@gmail.com).
+This is the project page repository for the WACV 2025 paper [Towards Zero-shot 3D Anomaly Localization](https://arxiv.org/pdf/2412.04304). Since this paper is initiated when [Yizhou Wang](https://wyzjack.github.io/) was a research intern at Mitsubishi Electric Research Laboratories, the source code can not be released publicly. If you are interested in the code or have any questions on the reproducibility of the results, please contact Yizhou Wang (wyzjack990122@gmail.com).
 
 
 ## Acknowledgments
