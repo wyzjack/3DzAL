@@ -143,28 +143,28 @@
         <!-- Your image here -->
         <img src="static/images/setting.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Problem overview. Current 3D anomaly detection and localization works entail training on the normal data of one class and testing on the normal and abnormal data of the same class. We extend such setting by testing on other classes without the corresponding normal training data. This zero-shot setting is practical when such data are unavailable (e.g., due to data privacy, export control laws, etc.). GT denotes ground truth.
+          <strong>Problem overview.</strong>  Current 3D anomaly detection and localization works entail training on the normal data of one class and testing on the normal and abnormal data of the same class. We extend such setting by testing on other classes without the corresponding normal training data. This zero-shot setting is practical when such data are unavailable (e.g., due to data privacy, export control laws, etc.). GT denotes ground truth.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
         <img src="static/images/inductive_bias.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Inductive bias of random networks. We feed the xyz data of abnormal examples as the input of a randomly initialized and untrained ResNet-50, and visualize the attention maps. These maps show that the random network has the inductive bias of covering the locations of interest, including the locations shown in the ground truth.
+          <strong>Inductive bias of random networks.</strong> We feed the xyz data of abnormal examples as the input of a randomly initialized and untrained ResNet-50, and visualize the attention maps. These maps show that the random network has the inductive bias of covering the locations of interest, including the locations shown in the ground truth.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
         <img src="static/images/pseudo_anomaly.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Pseudo anomaly generation. Overview of our proposed patch-level 3D pseudo anomaly sample generation process for both“adding” and “removing” type anomalies.
+          <strong>Pseudo anomaly generation.</strong> Overview of our proposed patch-level 3D pseudo anomaly sample generation process for both“adding” and “removing” type anomalies.
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
       <img src="static/images/framework.jpg" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Framework overview. Our proposed 3DzAL framework mainly adopts three branches to extract features given both 2D and 3D data of an object. The RGB branch extracts feature from 2D image data of the object using ResNet pre-trained on ImageNet. The FPFH branch extracts handcrafted FPFH features from 3D point cloud data. The point cloud branch employs a learnable network (PointNet++) to extract features. The network is trained by a patch-level contrastive learning loss, which takes inductive bias-based pseudo anomaly patches as negative samples and normal patches as positive samples and a representation disentanglement loss which pushes the FPFH features and the learned 3D features away. The features of the three branches are concatenated to store in the memory bank where a coreset selection is performed. In addition, a normalcyclassifier is trained to classify the pseudo anomaly patch and the normal patch using the binary cross-entropy loss.
+        <strong>Framework overview.</strong> Our proposed 3DzAL framework mainly adopts three branches to extract features given both 2D and 3D data of an object. The RGB branch extracts feature from 2D image data of the object using ResNet pre-trained on ImageNet. The FPFH branch extracts handcrafted FPFH features from 3D point cloud data. The point cloud branch employs a learnable network (PointNet++) to extract features. The network is trained by a patch-level contrastive learning loss, which takes inductive bias-based pseudo anomaly patches as negative samples and normal patches as positive samples and a representation disentanglement loss which pushes the FPFH features and the learned 3D features away. The features of the three branches are concatenated to store in the memory bank where a coreset selection is performed. In addition, a normalcyclassifier is trained to classify the pseudo anomaly patch and the normal patch using the binary cross-entropy loss.
       </h2>
     </div>
   </div>
